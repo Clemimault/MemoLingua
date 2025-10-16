@@ -33,6 +33,32 @@ const DATA = {
       {emoji:"🍬", german:"die Bonbons", english:"sweets"}
     ]
   }
+ "French": {
+    "Animals": [
+      {emoji:"🐶", french:"le chien", english:"dog"},
+      {emoji:"🐱", french:"le chat", english:"cat"},
+      {emoji:"🐭", french:"la souris", english:"mouse"},
+      {emoji:"🐰", french:"le lapin", english:"rabbit"},
+      {emoji:"🐔", french:"le poulet", english:"chicken"},
+      {emoji:"🦆", french:"le canard", english:"duck"},
+      {emoji:"🐴", french:"le cheval", english:"horse"},
+      {emoji:"🐮", french:"la vache", english:"cow"},
+      {emoji:"🐷", french:"le cochon", english:"pig"},
+      {emoji:"🐟", french:"le lapin", english:"fish"}
+    ],
+    "Food": [
+      {emoji:"🍎", french:"la pomme", english:"apple"},
+      {emoji:"🍓", french:"la fraise", english:"strawberry"},
+      {emoji:"🍅", french:"la tomate", english:"tomato"},
+      {emoji:"🥕", french:"la carotte", english:"carrot"},
+      {emoji:"🥔", french:"la pomme de terre", english:"potato"},
+      {emoji:"🥖", french:"le pain", english:"bread"},
+      {emoji:"🧀", french:"le fromage", english:"cheese"},
+      {emoji:"🥚", french:"l'oeuf", english:"egg"},
+      {emoji:"🥗", french:"la salade", english:"salad"},
+      {emoji:"🍬", french:"les bonbons", english:"sweets"}
+    ]
+  }   
 };
 
 /* === Utilities === */
@@ -244,3 +270,4 @@ function updateStatus(){
    theme.html -> renderThemes()
    practice.html -> startPractice()
 */
+
