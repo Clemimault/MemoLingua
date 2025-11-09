@@ -50,32 +50,69 @@ const DATA = {
       {emoji:"👶", word:"das Baby", english:"baby"},
       {emoji:"👴", word:"der Großvater", english:"grandfather"},
       {emoji:"👵", word:"die Großmutter", english:"grandmother"},
-      {emoji:"👦", word:"der Enkel", english:"grandson"},
-      {emoji:"👧", word:"die Enkelin", english:"granddaughter"},
-      {emoji:"👨‍🦰", word:"der Onkel", english:"uncle"},
-      {emoji:"👩‍🦰", word:"die Tante", english:"aunt"},
-      {emoji:"🧑‍🦰", word:"der Cousin", english:"cousin (m)"},
-      {emoji:"👱‍♀️", word:"die Cousine", english:"cousin (f)"},
-      {emoji:"👦", word:"der Neffe", english:"nephew"},
-      {emoji:"👧", word:"die Nichte", english:"niece"},
-      {emoji:"👩‍⚕️", word:"der Arzt", english:"doctor"}
+      {emoji:"👉👨‍🤝‍👩", word:"der Bruder", english:"brother"},
+      {emoji:"👨‍🤝‍👩👈", word:"die Schwester", english:"sister"},
+      {emoji:"👯‍♂️", word:"die Zwillinge", english:"twins"}
     ],
     "Jobs":[
-      {emoji:"😷", word:"der Zahnarzt", english:"dentist"},
-      {emoji:"👩‍⚕️", word:"die Krankenschwester", english:"nurse"},
-      {emoji:"🧑‍💼", word:"der Anwalt", english:"lawyer"},
+      {emoji:"👩‍⚕️", word:"der Arzt", english:"doctor"},
+      {emoji:"👨‍🎤", word:"der Sänger", english:"singer"},
       {emoji:"👩‍🏫", word:"die Lehrerin", english:"teacher"},
-      {emoji:"👩‍💻", word:"der Schüler", english:"student"},
-      {emoji:"👩‍💻", word:"die Sekretärin", english:"secretary"},
       {emoji:"👨‍🚒", word:"der Feuerwehrmann", english:"firefighter"},
       {emoji:"👮‍♂️", word:"der Polizist", english:"policeman"},
       {emoji:"🪖", word:"der Soldat", english:"soldier"},
       {emoji:"🧑‍🌾", word:"der Bauer", english:"farmer"},
-      {emoji:"🧑‍💼", word:"der Journalist", english:"journalist"},
       {emoji:"👨‍🔧", word:"der Mechaniker", english:"mechanic"},
-      {emoji:"🧑‍⚕️", word:"der Tierarzt", english:"veterinarian"},
-      {emoji:"💁🏻‍♂️", word:"der Kellner", english:"waiter"},
+      {emoji:"🧑‍🎨", word:"der Kunstmaler", english:"painter"},
       {emoji:"👨‍🍳", word:"der Koch", english:"cook"}
+    ],
+    "Body":[
+      {emoji:"👉🙂", word:"der Kopf", english:"head"},
+      {emoji:"👀", word:"die Augen", english:"eyes"},
+      {emoji:"👃", word:"die Nase", english:"nose"},
+      {emoji:"👄", word:"der Mund", english:"mouth"},
+      {emoji:"🦷", word:"der Zahn", english:"tooth"},
+      {emoji:"👂", word:"das Ohr", english:"ear"},
+      {emoji:"💪", word:"der Arm", english:"arm"},
+      {emoji:"🖐️", word:"die Hand", english:"hand"},
+      {emoji:"🦵", word:"das Bein", english:"leg"},
+      {emoji:"🦶", word:"der Fuß", english:"foot"}
+    ],
+    "Clothes":[
+      {emoji:"👗", word:"das Kleid", english:"dress"},
+      {emoji:"👖", word:"die Hose", english:"trousers"},
+      {emoji:"👕", word:"das T-Shirt", english:"T-Shirt"},
+      {emoji:"👔", word:"das Hemd", english:"shirt"},
+      {emoji:"🧦", word:"der Kniestrumpf", english:"socks"},
+      {emoji:"👟👟", word:"die Schuhe", english:"shoes"},
+      {emoji:"🩲", word:"der Slip", english:"briefs"},
+      {emoji:"🧥", word:"der Mantel", english:"coat"},
+      {emoji:"👒", word:"der Hut", english:"hat"},
+      {emoji:"🧢", word:"die Schirmmütze", english:"cap"}
+    ],
+    "Colors":[
+      {emoji:"🟦", word:"blau", english:"blue"},
+      {emoji:"🟩", word:"grün", english:"green"},
+      {emoji:"🟨", word:"gelb", english:"yellow"},
+      {emoji:"🟧", word:"orange", english:"orange"},
+      {emoji:"🟫", word:"braun", english:"brown"},
+      {emoji:"🟥", word:"rot", english:"red"},
+      {emoji:"🟪", word:"lila", english:"violet"},
+      {emoji:"⬛", word:"schwarz", english:"black"},
+      {emoji:"🌫️", word:"grau", english:"grey"},
+      {emoji:"⬜", word:"weiß", english:"white"}
+    ],
+    "Numbers":[
+      {emoji:"0️⃣", word:"null", english:"zero"},
+      {emoji:"1️⃣", word:"eins", english:"one"},
+      {emoji:"2️⃣", word:"zwei", english:"two"},
+      {emoji:"3️⃣", word:"drei", english:"three"},
+      {emoji:"4️⃣", word:"vier", english:"four"},
+      {emoji:"5️⃣", word:"fünf", english:"five"},
+      {emoji:"6️⃣", word:"sechs", english:"six"},
+      {emoji:"7️⃣", word:"sieben", english:"seven"},
+      {emoji:"8️⃣", word:"acht", english:"eight"},
+      {emoji:"9️⃣", word:"neun", english:"nine"}
     ]
   },
 
@@ -112,32 +149,69 @@ const DATA = {
       {emoji:"👶", word:"le bébé", english:"baby"},
       {emoji:"👴", word:"le grand-père", english:"grandfather"},
       {emoji:"👵", word:"la grand-mère", english:"grandmother"},
-      {emoji:"👦", word:"le petit-fils", english:"grandson"},
-      {emoji:"👧", word:"la petite-fille", english:"granddaughter"},
-      {emoji:"👨‍🦰", word:"l'oncle", english:"uncle"},
-      {emoji:"👩‍🦰", word:"la tante", english:"aunt"},
-      {emoji:"🧑‍🦰", word:"le cousin", english:"cousin (m)"},
-      {emoji:"👱‍♀️", word:"la cousine", english:"cousin (f)"},
-      {emoji:"👦", word:"le neveu", english:"nephew"},
-      {emoji:"👧", word:"la nièce", english:"niece"},
-      {emoji:"👩‍⚕️", word:"le médecin", english:"doctor"}
+      {emoji:"👉👨‍🤝‍👩", word:"le frère", english:"brother"},
+      {emoji:"👨‍🤝‍👩👈", word:"la soeur", english:"sister"},
+      {emoji:"👯‍♂️", word:"les jumeaux", english:"twins"}
     ],
     "Jobs":[
-      {emoji:"😷", word:"le dentiste", english:"dentist"},
-      {emoji:"👩‍⚕️", word:"l'infirmière", english:"nurse"},
-      {emoji:"🧑‍💼", word:"l'avocat", english:"lawyer"},
+      {emoji:"👩‍⚕️", word:"le médecin", english:"doctor"},
+      {emoji:"👨‍🎤", word:"le chanteur", english:"singer"},
       {emoji:"👩‍🏫", word:"le professeur", english:"teacher"},
-      {emoji:"👩‍💻", word:"l'élève", english:"student"},
-      {emoji:"👩‍💻", word:"la secrétaire", english:"secretary"},
       {emoji:"👨‍🚒", word:"le pompier", english:"firefighter"},
       {emoji:"👮‍♂️", word:"le policier", english:"policeman"},
       {emoji:"🪖", word:"le soldat", english:"soldier"},
       {emoji:"🧑‍🌾", word:"le fermier", english:"farmer"},
-      {emoji:"🧑‍💼", word:"le journaliste", english:"journalist"},
       {emoji:"👨‍🔧", word:"le mécanicien", english:"mechanic"},
-      {emoji:"🧑‍⚕️", word:"le vétérinaire", english:"veterinarian"},
-      {emoji:"💁🏻‍♂️", word:"le serveur", english:"waiter"},
+      {emoji:"🧑‍🎨", word:"le peintre", english:"painter"},
       {emoji:"👨‍🍳", word:"le cuisinier", english:"cook"}
+    ],
+    "Body":[
+      {emoji:"👉🙂", word:"la tête", english:"head"},
+      {emoji:"👀", word:"les yeux", english:"eyes"},
+      {emoji:"👃", word:"le nez", english:"nose"},
+      {emoji:"👄", word:"la bouche", english:"mouth"},
+      {emoji:"🦷", word:"la dent", english:"tooth"},
+      {emoji:"👂", word:"l'oreille", english:"ear"},
+      {emoji:"💪", word:"le bras", english:"arm"},
+      {emoji:"🖐️", word:"la main", english:"hand"},
+      {emoji:"🦵", word:"la jambe", english:"leg"},
+      {emoji:"🦶", word:"le pied", english:"foot"}
+    ],
+    "Clothes":[
+      {emoji:"👗", word:"la robe", english:"dress"},
+      {emoji:"👖", word:"le pantalon", english:"trousers"},
+      {emoji:"👕", word:"le T-Shirt", english:"T-Shirt"},
+      {emoji:"👔", word:"la chemise", english:"shirt"},
+      {emoji:"🧦", word:"les chaussettes", english:"socks"},
+      {emoji:"👟👟", word:"les chaussures", english:"shoes"},
+      {emoji:"🩲", word:"le slip", english:"briefs"},
+      {emoji:"🧥", word:"le manteau", english:"coat"},
+      {emoji:"👒", word:"le chapeau", english:"hat"},
+      {emoji:"🧢", word:"la casquette", english:"cap"}
+    ],
+    "Colors":[
+      {emoji:"🟦", word:"bleu", english:"blue"},
+      {emoji:"🟩", word:"vert", english:"green"},
+      {emoji:"🟨", word:"jaune", english:"yellow"},
+      {emoji:"🟧", word:"orange", english:"orange"},
+      {emoji:"🟫", word:"marron", english:"brown"},
+      {emoji:"🟥", word:"rouge", english:"red"},
+      {emoji:"🟪", word:"violet", english:"violet"},
+      {emoji:"⬛", word:"noir", english:"black"},
+      {emoji:"🌫️", word:"gris", english:"grey"},
+      {emoji:"⬜", word:"blanc", english:"white"}
+    ],
+    "Numbers":[
+      {emoji:"0️⃣", word:"zéro", english:"zero"},
+      {emoji:"1️⃣", word:"un", english:"one"},
+      {emoji:"2️⃣", word:"deux", english:"two"},
+      {emoji:"3️⃣", word:"trois", english:"three"},
+      {emoji:"4️⃣", word:"quatre", english:"four"},
+      {emoji:"5️⃣", word:"cinq", english:"five"},
+      {emoji:"6️⃣", word:"six", english:"six"},
+      {emoji:"7️⃣", word:"sept", english:"seven"},
+      {emoji:"8️⃣", word:"huit", english:"eight"},
+      {emoji:"9️⃣", word:"neuf", english:"nine"}
     ]
   },
 
@@ -174,32 +248,70 @@ const DATA = {
       {emoji:"👶", word:"il bambino", english:"baby"},
       {emoji:"👴", word:"il nonno", english:"grandfather"},
       {emoji:"👵", word:"la nonna", english:"grandmother"},
-      {emoji:"👦", word:"il nipote", english:"grandson"},
-      {emoji:"👧", word:"la nipote", english:"granddaughter"},
-      {emoji:"👨‍🦰", word:"lo zio", english:"uncle"},
-      {emoji:"👩‍🦰", word:"la zia", english:"aunt"},
-      {emoji:"🧑‍🦰", word:"il cugino", english:"cousin (m)"},
-      {emoji:"👱‍♀️", word:"la cugina", english:"cousin (f)"},
-      {emoji:"👦", word:"il nipote", english:"nephew"},
-      {emoji:"👧", word:"la nipote", english:"niece"},
-      {emoji:"👩‍⚕️", word:"il medico", english:"doctor"}
+      {emoji:"👉👨‍🤝‍👩", word:"il fratello", english:"brother"},
+      {emoji:"👨‍🤝‍👩👈", word:"la sorella", english:"sister"},
+      {emoji:"👯‍♂️", word:"i gemelli", english:"twins"}
     ],
     "Jobs":[
-      {emoji:"😷", word:"il dentista", english:"dentist"},
-      {emoji:"👩‍⚕️", word:"l'infermiera", english:"nurse"},
-      {emoji:"🧑‍💼", word:"l'avvocato", english:"lawyer"},
+      {emoji:"👩‍⚕️", word:"il dottore", english:"doctor"},
+      {emoji:"👨‍🎤", word:"il cantante", english:"singer"},
       {emoji:"👩‍🏫", word:"il professore", english:"teacher"},
-      {emoji:"👩‍💻", word:"lo studente", english:"student"},
-      {emoji:"👩‍💻", word:"la segretaria", english:"secretary"},
       {emoji:"👨‍🚒", word:"il pompiere", english:"firefighter"},
       {emoji:"👮‍♂️", word:"il poliziotto", english:"policeman"},
       {emoji:"🪖", word:"il soldato", english:"soldier"},
       {emoji:"🧑‍🌾", word:"il contadino", english:"farmer"},
-      {emoji:"🧑‍💼", word:"il giornalista", english:"journalist"},
       {emoji:"👨‍🔧", word:"il meccanico", english:"mechanic"},
       {emoji:"🧑‍⚕️", word:"il veterinario", english:"veterinarian"},
-      {emoji:"💁🏻‍♂️", word:"il cameriere", english:"waiter"},
+      {emoji:"🧑‍🎨", word:"il pittore", english:"painter"},
       {emoji:"👨‍🍳", word:"lo chef", english:"cook"}
+    ],
+    "Body":[
+      {emoji:"👉🙂", word:"la testa", english:"head"},
+      {emoji:"👀", word:"gli occhi", english:"eyes"},
+      {emoji:"👃", word:"il naso", english:"nose"},
+      {emoji:"👄", word:"la bocca", english:"mouth"},
+      {emoji:"🦷", word:"la dente", english:"tooth"},
+      {emoji:"👂", word:"l'orecchio", english:"ear"},
+      {emoji:"💪", word:"il braccio", english:"arm"},
+      {emoji:"🖐️", word:"la mano", english:"hand"},
+      {emoji:"🦵", word:"la gamba", english:"leg"},
+      {emoji:"🦶", word:"il piede", english:"foot"}
+    ],
+    "Clothes":[
+      {emoji:"👗", word:"il vestito", english:"dress"},
+      {emoji:"👖", word:"i pantaloni", english:"trousers"},
+      {emoji:"👕", word:"la maglietta", english:"T-Shirt"},
+      {emoji:"👔", word:"la camicia", english:"shirt"},
+      {emoji:"🧦", word:"le calze", english:"socks"},
+      {emoji:"👟👟", word:"le scarpe", english:"shoes"},
+      {emoji:"🩲", word:"lo slip", english:"briefs"},
+      {emoji:"🧥", word:"il cappotto", english:"coat"},
+      {emoji:"👒", word:"il cappello", english:"hat"},
+      {emoji:"🧢", word:"il berretto", english:"cap"}
+    ],
+    "Colors":[
+      {emoji:"🟦", word:"blu", english:"blue"},
+      {emoji:"🟩", word:"verde", english:"green"},
+      {emoji:"🟨", word:"giallo", english:"yellow"},
+      {emoji:"🟧", word:"arancione", english:"orange"},
+      {emoji:"🟫", word:"marrone", english:"brown"},
+      {emoji:"🟥", word:"rosso", english:"red"},
+      {emoji:"🟪", word:"viola", english:"violet"},
+      {emoji:"⬛", word:"nero", english:"black"},
+      {emoji:"🌫️", word:"grigio", english:"grey"},
+      {emoji:"⬜", word:"bianco", english:"white"}
+    ],
+    "Numbers":[
+      {emoji:"0️⃣", word:"zero", english:"zero"},
+      {emoji:"1️⃣", word:"uno", english:"one"},
+      {emoji:"2️⃣", word:"due", english:"two"},
+      {emoji:"3️⃣", word:"tre", english:"three"},
+      {emoji:"4️⃣", word:"quattro", english:"four"},
+      {emoji:"5️⃣", word:"cinque", english:"five"},
+      {emoji:"6️⃣", word:"sei", english:"six"},
+      {emoji:"7️⃣", word:"sette", english:"seven"},
+      {emoji:"8️⃣", word:"otto", english:"eight"},
+      {emoji:"9️⃣", word:"nove", english:"nine"}
     ]
   },
 
@@ -236,32 +348,69 @@ const DATA = {
       {emoji:"👶", word:"baby", english:"baby"},
       {emoji:"👴", word:"grandfather", english:"grandfather"},
       {emoji:"👵", word:"grandmother", english:"grandmother"},
-      {emoji:"👦", word:"grandson", english:"grandson"},
-      {emoji:"👧", word:"granddaughter", english:"granddaughter"},
-      {emoji:"👨‍🦰", word:"uncle", english:"uncle"},
-      {emoji:"👩‍🦰", word:"aunt", english:"aunt"},
-      {emoji:"🧑‍🦰", word:"cousin (m)", english:"cousin (m)"},
-      {emoji:"👱‍♀️", word:"cousin (f)", english:"cousin (f)"},
-      {emoji:"👦", word:"nephew", english:"nephew"},
-      {emoji:"👧", word:"niece", english:"niece"},
-      {emoji:"👩‍⚕️", word:"doctor", english:"doctor"}
+      {emoji:"👉👨‍🤝‍👩", word:"brother", english:"brother"},
+      {emoji:"👨‍🤝‍👩👈", word:"sister", english:"sister"},
+      {emoji:"👯‍♂️", word:"twins", english:"twins"}
     ],
     "Jobs":[
-      {emoji:"😷", word:"dentist", english:"dentist"},
-      {emoji:"👩‍⚕️", word:"nurse", english:"nurse"},
-      {emoji:"🧑‍💼", word:"lawyer", english:"lawyer"},
+      {emoji:"👩‍⚕️", word:"doctor", english:"doctor"},
+      {emoji:"👨‍🎤", word:"singer", english:"singer"},
       {emoji:"👩‍🏫", word:"teacher", english:"teacher"},
-      {emoji:"👩‍💻", word:"student", english:"student"},
-      {emoji:"👩‍💻", word:"secretary", english:"secretary"},
       {emoji:"👨‍🚒", word:"firefighter", english:"firefighter"},
       {emoji:"👮‍♂️", word:"policeman", english:"policeman"},
       {emoji:"🪖", word:"soldier", english:"soldier"},
       {emoji:"🧑‍🌾", word:"farmer", english:"farmer"},
-      {emoji:"🧑‍💼", word:"journalist", english:"journalist"},
       {emoji:"👨‍🔧", word:"mechanic", english:"mechanic"},
-      {emoji:"🧑‍⚕️", word:"veterinarian", english:"veterinarian"},
-      {emoji:"💁🏻‍♂️", word:"waiter", english:"waiter"},
+      {emoji:"🧑‍🎨", word:"painter", english:"painter"},
       {emoji:"👨‍🍳", word:"cook", english:"cook"}
+    ],
+    "Body":[
+      {emoji:"👉🙂", word:"head", english:"head"},
+      {emoji:"👀", word:"eyes", english:"eyes"},
+      {emoji:"👃", word:"nose", english:"nose"},
+      {emoji:"👄", word:"mouth", english:"mouth"},
+      {emoji:"🦷", word:"tooth", english:"tooth"},
+      {emoji:"👂", word:"ear", english:"ear"},
+      {emoji:"💪", word:"arm", english:"arm"},
+      {emoji:"🖐️", word:"hand", english:"hand"},
+      {emoji:"🦵", word:"leg", english:"leg"},
+      {emoji:"🦶", word:"foot", english:"foot"}
+    ],
+    "Clothes":[
+      {emoji:"👗", word:"dress", english:"dress"},
+      {emoji:"👖", word:"trousers", english:"trousers"},
+      {emoji:"👕", word:"T-Shirt", english:"T-Shirt"},
+      {emoji:"👔", word:"shirt", english:"shirt"},
+      {emoji:"🧦", word:"socks", english:"socks"},
+      {emoji:"👟👟", word:"shoes", english:"shoes"},
+      {emoji:"🩲", word:"briefs", english:"briefs"},
+      {emoji:"🧥", word:"coat", english:"coat"},
+      {emoji:"👒", word:"hat", english:"hat"},
+      {emoji:"🧢", word:"cap", english:"cap"}
+    ],
+    "Colors":[
+      {emoji:"🟦", word:"blue", english:"blue"},
+      {emoji:"🟩", word:"green", english:"green"},
+      {emoji:"🟨", word:"yellow", english:"yellow"},
+      {emoji:"🟧", word:"orange", english:"orange"},
+      {emoji:"🟫", word:"brown", english:"brown"},
+      {emoji:"🟥", word:"red", english:"red"},
+      {emoji:"🟪", word:"violet", english:"violet"},
+      {emoji:"⬛", word:"black", english:"black"},
+      {emoji:"🌫️", word:"grey", english:"grey"},
+      {emoji:"⬜", word:"white", english:"white"}
+    ],
+    "Numbers":[
+      {emoji:"0️⃣", word:"zero", english:"zero"},
+      {emoji:"1️⃣", word:"one", english:"one"},
+      {emoji:"2️⃣", word:"two", english:"two"},
+      {emoji:"3️⃣", word:"three", english:"three"},
+      {emoji:"4️⃣", word:"four", english:"four"},
+      {emoji:"5️⃣", word:"five", english:"five"},
+      {emoji:"6️⃣", word:"six", english:"six"},
+      {emoji:"7️⃣", word:"seven", english:"seven"},
+      {emoji:"8️⃣", word:"eight", english:"eight"},
+      {emoji:"9️⃣", word:"nine", english:"nine"}
     ]
   }
 };
@@ -271,111 +420,129 @@ const DATA = {
 function save(key, val){ localStorage.setItem('ml_' + key, JSON.stringify(val)); }
 function load(key){ const s = localStorage.getItem('ml_' + key); return s ? JSON.parse(s) : null; }
 
-function stripDiacritics(str){
-  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-}
+function stripDiacritics(str){ return str.normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
 function normalizeAnswer(s){
   if(!s) return '';
   s = s.trim().toLowerCase();
   s = stripDiacritics(s);
   s = s.replace(/\s+/g,' ');
-  // accept ae/oe/ue typed as such by mapping to base char (helpful for German)
   s = s.replace(/ae/g,'a').replace(/oe/g,'o').replace(/ue/g,'u');
-  // remove leading articles (a few languages) for forgiving matching
   s = s.replace(/^(le |la |l'|der |die |das |il |lo |la |le |les |the )/i,'');
   return s;
 }
-
 function shuffle(arr){ return arr.slice().sort(()=>Math.random()-0.5); }
 
-/* ------------------ Page behaviours ------------------ */
-
-/* index.html */
+/* ------------------ index.html (Languages) ------------------ */
 function renderLanguages(){
-  document.getElementById('appTitle').innerText = APP_TITLE;
+  const titleEl = document.getElementById('appTitle');
+  if(titleEl) titleEl.innerText = APP_TITLE;
   const langs = Object.keys(DATA);
   const container = document.getElementById('langGrid');
+  if(!container) return;
   container.innerHTML = '';
   langs.forEach(l => {
     const card = document.createElement('div');
     card.className = 'card';
-    // use emoji flag based on language key
-    const flag = l === 'German' ? '🇩🇪' : (l === 'French' ? '🇫🇷' : (l === 'Italian' ? '🇮🇹' : '🇬🇧'));
+    const flag = l === 'German' ? '<img src="img/de.png" width="40" alt="de">' :
+                 l === 'French' ? '<img src="img/fr.png" width="40" alt="fr">' :
+                 l === 'Italian' ? '<img src="img/it.png" width="40" alt="it">' :
+                 '<img src="img/en.png" width="40" alt="en">';
     card.innerHTML = `<div style="text-align:center"><div class="lang-emoji">${flag}</div><div class="card-title">${l}</div><div class="small">Start ${l}</div></div>`;
-    card.onclick = ()=> {
-      save('language', l);
-      window.location.href = 'theme.html';
-    };
+    card.onclick = ()=>{ save('language', l); window.location.href = 'theme.html'; };
     container.appendChild(card);
   });
 }
 
-/* theme.html */
+/* ------------------ theme.html (Themes + Pagination) ------------------ */
+const allThemes = [
+  { name: "Animals", emoji: "🐶" },
+  { name: "Food", emoji: "🍎" },
+  { name: "Family", emoji: "👨‍👩‍👧‍👦" },
+  { name: "Jobs", emoji: "👩‍⚕️" },
+  { name: "Body", emoji: "💪" },
+  { name: "Clothes", emoji: "👕" },
+  { name: "Colors", emoji: "🎨" },
+  { name: "Numbers", emoji: "🔢" }
+];
+
+let themePage = 0;
+const themesPerPage = 4;
+
 function renderThemes(){
-  document.getElementById('appTitle').innerText = APP_TITLE;
+  const grid = document.getElementById('themeGrid');
+  const subtitle = document.getElementById('subtitle');
   const lang = load('language') || Object.keys(DATA)[0];
-  document.getElementById('subtitle').innerText = `Language: ${lang}`;
-  const themes = Object.keys(DATA[lang] || {});
-  const container = document.getElementById('themeGrid');
-  container.innerHTML = '';
-  themes.forEach(t => {
+  if(subtitle) subtitle.innerText = `Language: ${lang}`;
+  if(!grid) return;
+
+  grid.innerHTML = '';
+  const start = themePage * themesPerPage;
+  const visibleThemes = allThemes.slice(start, start + themesPerPage);
+
+  visibleThemes.forEach(t => {
     const card = document.createElement('div');
     card.className = 'card';
-    const emoji = t === 'Animals' ? '🐾' : (t === 'Food' ? '🍽️' : (t === 'Family' ? '👨‍👩‍👧‍👦' : '💼'));
-    card.innerHTML = `<div style="text-align:center"><div class="lang-emoji">${emoji}</div><div class="card-title">${t}</div><div class="small">Practice ${t}</div></div>`;
-    card.onclick = ()=> {
-      save('theme', t);
-      window.location.href = 'practice.html';
-    };
-    container.appendChild(card);
+    card.onclick = () => selectTheme(t.name);
+    card.innerHTML = `<div style="text-align:center"><div class="lang-emoji">${t.emoji}</div><div class="card-title">${t.name}</div><div class="small">Practice ${t.name}</div></div>`;
+    grid.appendChild(card);
   });
+
+  const prev = document.getElementById('prevThemes');
+  const next = document.getElementById('nextThemes');
+  if(prev) prev.disabled = themePage === 0;
+  if(next) next.disabled = start + themesPerPage >= allThemes.length;
 }
 
-/* practice.html */
-let practiceState = {
-  list: [],
-  index: 0,
-  sessionCorrectInRow: 0
-};
+function selectTheme(themeName){
+  save('theme', themeName);
+  window.location.href = 'practice.html';
+}
+
+/* ------------------ practice.html (Practice / Progress / Streak / Feedback) ------------------ */
+let practiceState = { list: [], index: 0, sessionCorrectInRow: 0 };
 
 function startPractice(){
-  document.getElementById('appTitle').innerText = APP_TITLE;
+  const titleEl = document.getElementById('appTitle');
+  if(titleEl) titleEl.innerText = APP_TITLE;
+
   const lang = load('language') || Object.keys(DATA)[0];
-  const theme = load('theme') || Object.keys(DATA[lang])[0];
-  document.getElementById('subtitle').innerText = `${lang} • ${theme}`;
+  const theme = load('theme') || Object.keys(DATA[lang] || {})[0] || 'Animals';
+  const subtitle = document.getElementById('subtitle');
+  if(subtitle) subtitle.innerText = `${lang} • ${theme}`;
 
   const words = (DATA[lang] && DATA[lang][theme]) ? DATA[lang][theme] : [];
-  practiceState.list = shuffle(words);
+  practiceState.list = shuffle(words).map(item => ({ ...item, german: item.word }));
   practiceState.index = 0;
   practiceState.sessionCorrectInRow = 0;
-  // alias: ensure entries have 'german' property because existing render expects cur.german
-  practiceState.list = practiceState.list.map(item => {
-    // set german alias to the language word (for compatibility)
-    item.german = item.word;
-    return item;
-  });
+
   renderCurrent();
   updateStatus();
-  document.getElementById('answerInput').focus();
 
-  document.getElementById('answerForm').onsubmit = (e)=>{
-    e.preventDefault();
-    handleSubmit();
-  };
+  const form = document.getElementById('answerForm');
+  if(form){
+    form.onsubmit = (e) => { e.preventDefault(); handleSubmit(); };
+  }
+  const input = document.getElementById('answerInput');
+  if(input) input.focus();
 }
 
 function renderCurrent(){
   const cur = practiceState.list[practiceState.index];
+  const emojiBox = document.getElementById('emojiBox');
+  const prompt = document.getElementById('prompt');
+  const input = document.getElementById('answerInput');
+
   if(!cur){
-    document.getElementById('emojiBox').innerText = '🎉';
-    document.getElementById('prompt').innerText = 'All done — nice! Tap Restart or change theme.';
-    document.getElementById('answerInput').value = '';
+    if(emojiBox) emojiBox.innerText = '🎉';
+    if(prompt) prompt.innerText = 'All done — nice! Tap Restart or change theme.';
+    if(input) input.value = '';
     updateProgress();
     return;
   }
-  document.getElementById('emojiBox').innerText = cur.emoji;
-  document.getElementById('prompt').innerText = 'Type the word';
-  document.getElementById('answerInput').value = '';
+
+  if(emojiBox) emojiBox.innerText = cur.emoji;
+  if(prompt) prompt.innerText = 'Type the word';
+  if(input) input.value = '';
   updateProgress();
 }
 
@@ -383,29 +550,34 @@ function updateProgress(){
   const total = practiceState.list.length;
   const idx = Math.min(practiceState.index, total);
   const percent = total ? Math.round((idx / total) * 100) : 0;
-  document.querySelector('.progress > i').style.width = `${percent}%`;
-  document.getElementById('progressText').innerText = `${idx} / ${total}`;
+  const bar = document.querySelector('.progress > i');
+  if(bar) bar.style.width = `${percent}%`;
+  const txt = document.getElementById('progressText');
+  if(txt) txt.innerText = `${idx} / ${total}`;
+}
+
+function updateStatus(){
+  const consec = load('consecStreak') || 0;
+  const badge = document.getElementById('streakBadge');
+  if(badge) badge.innerText = `🔥 Streak: ${consec}`;
 }
 
 function handleSubmit(){
-  const input = document.getElementById('answerInput').value;
+  const input = document.getElementById('answerInput');
   const cur = practiceState.list[practiceState.index];
-  if(!cur) return;
-  const normUser = normalizeAnswer(input);
-  const normCorrect = normalizeAnswer(cur.german); // cur.german is alias to the language word
+  if(!cur || !input) return;
+
+  const normUser = normalizeAnswer(input.value);
+  const normCorrect = normalizeAnswer(cur.german);
 
   if(normUser === normCorrect){
-    // correct
     practiceState.sessionCorrectInRow++;
-    showFeedback(true, cur);
-    // update consecutive streak in localStorage
     let cs = load('consecStreak') || 0;
     cs = cs + 1;
     save('consecStreak', cs);
-    // advance automatically after a short pause
-    setTimeout(()=>{ nextWord(); }, 650);
+    showFeedback(true, cur);
+    setTimeout(()=> nextWord(), 650);
   } else {
-    // wrong -> reset consecutive streak
     practiceState.sessionCorrectInRow = 0;
     save('consecStreak', 0);
     showFeedback(false, cur);
@@ -415,32 +587,44 @@ function handleSubmit(){
 
 function showFeedback(ok, cur){
   const fb = document.getElementById('feedback');
-  if(ok){
-    fb.className = 'feedback correct';
-    fb.innerText = `✅ Correct — ${cur.german} (${cur.english})`;
-  } else {
-    fb.className = 'feedback wrong';
-    fb.innerText = `❌ Nope — correct: ${cur.german}`;
-  }
+  if(!fb) return;
+  fb.className = ok ? 'feedback correct' : 'feedback wrong';
+  fb.innerText = ok ? `✅ Correct — ${cur.german} (${cur.english})` : `❌ Nope — correct: ${cur.german}`;
 }
 
 function nextWord(){
   practiceState.index++;
-  if(practiceState.index >= practiceState.list.length){
-    document.getElementById('emojiBox').innerText = '🏁';
-    document.getElementById('prompt').innerText = 'Session complete — nice work!';
-    document.getElementById('answerInput').value = '';
+  const total = practiceState.list.length;
+  const fb = document.getElementById('feedback');
+
+  if(practiceState.index >= total){
+    const perfectRound = practiceState.sessionCorrectInRow === total;
+    const emojiBox = document.getElementById('emojiBox');
+    const prompt = document.getElementById('prompt');
+    if(perfectRound){
+      if(emojiBox) emojiBox.innerText = '🎉';
+      if(prompt) prompt.innerText = 'Perfect round — you nailed it! 🎊';
+      triggerConfetti();
+    } else {
+      if(emojiBox) emojiBox.innerText = '🏁';
+      if(prompt) prompt.innerText = 'Session complete — nice work!';
+    }
+    if(document.getElementById('answerInput')) document.getElementById('answerInput').value = '';
+    if(fb) fb.innerText = '';
+    practiceState.sessionCorrectInRow = 0;
   } else {
     renderCurrent();
   }
+  updateProgress();
   updateStatus();
 }
 
 function revealAnswer(){
   const cur = practiceState.list[practiceState.index];
-  if(cur) {
-    document.getElementById('feedback').className='feedback';
-    document.getElementById('feedback').innerText = `Answer: ${cur.german} — ${cur.english}`;
+  const fb = document.getElementById('feedback');
+  if(cur && fb){
+    fb.className = 'feedback';
+    fb.innerText = `Answer: ${cur.german} — ${cur.english}`;
   }
 }
 
@@ -448,19 +632,64 @@ function restartPractice(){
   practiceState.list = shuffle(practiceState.list);
   practiceState.index = 0;
   practiceState.sessionCorrectInRow = 0;
-  document.getElementById('feedback').innerText = '';
+  const fb = document.getElementById('feedback');
+  if(fb) fb.innerText = '';
   renderCurrent();
   updateStatus();
 }
 
-function updateStatus(){
-  const consec = load('consecStreak') || 0;
-  document.getElementById('streakBadge').innerText = `🔥 Streak: ${consec}`;
-  updateProgress();
+/* ------------------ Confetti ------------------ */
+function triggerConfetti(){
+  const confettiContainer = document.createElement('div');
+  confettiContainer.style.position = 'fixed';
+  confettiContainer.style.top = '0';
+  confettiContainer.style.left = '0';
+  confettiContainer.style.width = '100%';
+  confettiContainer.style.height = '100%';
+  confettiContainer.style.pointerEvents = 'none';
+  confettiContainer.style.overflow = 'visible';
+  confettiContainer.className = 'confetti-container';
+  document.body.appendChild(confettiContainer);
+
+  const colors = ['#2979FF','#FF5A5F','#FFCC00'];
+  for(let i=0;i<100;i++){
+    const confetti = document.createElement('div');
+    confetti.style.position = 'absolute';
+    confetti.style.width = '8px';
+    confetti.style.height = '8px';
+    confetti.style.backgroundColor = colors[Math.floor(Math.random()*colors.length)];
+    confetti.style.top = '-10px';
+    confetti.style.left = Math.random()*window.innerWidth + 'px';
+    confetti.style.opacity = Math.random();
+    confetti.style.transform = `rotate(${Math.random()*360}deg)`;
+    confetti.style.borderRadius = '50%';
+    confettiContainer.appendChild(confetti);
+
+    const duration = 2000 + Math.random()*2000;
+    confetti.animate([
+      { transform: `translateY(0px) rotate(${Math.random()*360}deg)` },
+      { transform: `translateY(${window.innerHeight+50}px) rotate(${Math.random()*720}deg)` }
+    ], {duration: duration, iterations: 1, easing: 'ease-out'});
+
+    setTimeout(()=>{ confetti.remove(); }, duration);
+  }
+
+  setTimeout(()=>{ confettiContainer.remove(); }, 4200);
 }
 
-/* Bind: run page-specific setup from HTML:
-   index.html -> renderLanguages()
-   theme.html -> renderThemes()
-   practice.html -> startPractice()
-*/
+/* ------------------ Boot (single DOMContentLoaded handler) ------------------ */
+document.addEventListener('DOMContentLoaded', () => {
+  // render languages if index page
+  if(document.getElementById('langGrid')) renderLanguages();
+  // render themes if theme page
+  if(document.getElementById('themeGrid')) renderThemes();
+  // attach pagination arrow handlers (if present)
+  const prevBtn = document.getElementById('prevThemes');
+  const nextBtn = document.getElementById('nextThemes');
+  if(prevBtn && nextBtn){
+    prevBtn.addEventListener('click', () => { if(themePage>0){ themePage--; renderThemes(); }});
+    nextBtn.addEventListener('click', () => { if((themePage+1)*themesPerPage < allThemes.length){ themePage++; renderThemes(); }});
+  }
+  // start practice if practice page
+  if(document.body && document.body.id === 'page-practice') startPractice();
+});
