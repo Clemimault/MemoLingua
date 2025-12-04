@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Memolingua — Unsubscribe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="page-unsubscribe">
+  <div class="app">
+    <div class="header">
+      <div>
+        <img src="img/memo.png" alt="Memolingua" style="height:25px; width:auto;">
+        <div class="subtitle">We're sorry to see you go 😢</div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:24px;">
+      <div class="big-emoji">👋</div>
+      <h2 style="margin:16px 0; font-size:20px; font-weight:700;">Unsubscribe from MemoLingua</h2>
+      <p style="color:var(--muted); margin:12px 0; line-height:1.6;">
+        Enter your email address below to stop receiving emails from us.
+      </p>
+    </div>
+
+    <!-- GOOGLE FORMS INTEGRATION -->
+    <form 
+      id="unsubscribeForm" 
+      action="https://docs.google.com/forms/d/e/1FAIpQLScI7JEg09rFmASjTbSVQqSa_slXt5blJSlICBkE_liD8H5ung/formresponse" 
+      method="POST" 
+      target="hidden_iframe"
+      style="margin-top:24px;"
+    >
+      <div class="input-row">
+        <input 
+          id="emailInput" 
+          type="email" 
+          name="entry.321992670"
+          autocomplete="email" 
+          placeholder="your@email.com" 
+          required 
+          style="flex:1;"
+        />
+        <button class="btn" type="submit" style="background: var(--secondary);">Unsubscribe</button>
+      </div>
+    </form>
+
+    <!-- Hidden iframe to prevent redirect -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+    <div id="feedback" class="feedback small" style="text-align:center;"></div>
+
+    <div class="info small" style="margin-top:24px; text-align:center;">
+      You'll stop receiving emails from MemoLingua.<br>
+      Changed your mind? You can always rejoin later! 💙
+    </div>
+
+    <div style="text-align:center; margin-top:32px;">
+      <a href="../index.html" style="color:var(--accent); text-decoration:none; font-size:14px;">
+        ← Back to MemoLingua
+      </a>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.getElementById('unsubscribeForm');
+      const input = document.getElementById('emailInput');
+      const feedback = document.getElementById('feedback');
+
+      form.onsubmit = (e) => {
+        e.preventDefault();
+        
+        const email = input.value.trim();
+        if(!email || !email.includes('@')){
+          feedback.className = 'feedback wrong';
+          feedback.innerText = '❌ Please enter a valid email address';
+          return;
+        }
+
+        // Submit to Google Forms in background
+        const formData = new FormData(form);
+        fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          mode: 'no-cors'
+        });
+
+        // Show success message
+        feedback.className = 'feedback correct';
+        feedback.innerText = '✅ You have been unsubscribed. We\'re sorry to see you go!';
+        
+        // Disable form after submission
+        input.disabled = true;
+        form.querySelector('button').disabled = true;
+
+        // Optional: Show message for a few seconds then redirect home
+        setTimeout(() => {
+          window.location.href = '../index.html';
+        }, 3000);
+      };
+
+      // Focus input on load
+      if(input) input.focus();
+    });
+  </script>
+</body>
+</html>
