@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Memolingua — Themes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="page-theme">
+  <div class="app">
+    <div class="header">
+      <div>
+        <img src="img/memo.png" alt="Memolingua" style="height:25px; width:auto;">
+        <div id="subtitle" class="subtitle">Language: German</div>
+      </div>
+      <div class="badge">Choose</div>
+    </div>
+
+    <div id="themeGrid" class="grid"></div>
+
+    <div style="margin-top:12px; display:flex; justify-content:space-between; gap:8px; align-items:center;">
+      <button class="btn" onclick="window.location.href='index.html'">← Back</button>
+      <div style="position:relative; width:120px; height:1px;"></div>
+    </div>
+
+    <!-- floating arrows inside the .app container -->
+    <button id="prevThemes" class="nav-arrow left" aria-label="Previous themes">&lt;</button>
+    <button id="nextThemes" class="nav-arrow right" aria-label="Next themes">&gt;</button>
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memolingua</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Intentionally empty - all styles moved to styles.css */
+</style>
+</head>
+<body>
+  <div class="landing">
+    <!-- Logo in top right corner -->
+    <div class="logo-container">
+      <img src="img/memo.png" alt="Memolingua" class="landing-logo">
+    </div>
+    
+    <div class="hero">
+      <div class="hero-left">
+        <!-- Auto-flip preview cards -->
+        <div class="preview-cards">
+          <div class="preview-flip-container">
+            <div class="preview-flip-card" data-word="apple">
+              <div class="preview-flip-face preview-flip-front">🍎</div>
+              <div class="preview-flip-face preview-flip-back">apple</div>
+            </div>
+          </div>
+          <div class="preview-flip-container">
+            <div class="preview-flip-card" data-word="horse">
+              <div class="preview-flip-face preview-flip-front">🐴</div>
+              <div class="preview-flip-face preview-flip-back">horse</div>
+            </div>
+          </div>
+          <div class="preview-flip-container">
+            <div class="preview-flip-card" data-word="car">
+              <div class="preview-flip-face preview-flip-front">🚗</div>
+              <div class="preview-flip-face preview-flip-back">car</div>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          Type it to remember it.<br>
+          Active recall vocabulary practice.
+        </h1>
+      </div>
+      <div class="hero-right">
+        <a href="#" class="btn start" id="startTrialBtn">Start Now</a>
+      </div>
+    </div>
+    <div class="flags">
+      <div class="flag-item">
+        <img src="img/de.png" alt="German">
+        <span>German</span>
+      </div>
+      <div class="flag-item">
+        <img src="img/fr.png" alt="French">
+        <span>French</span>
+      </div>
+      <div class="flag-item">
+        <img src="img/it.png" alt="Italian">
+        <span>Italian</span>
+      </div>
+      <div class="flag-item">
+        <img src="img/en.png" alt="English">
+        <span>English</span>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Auto-flip animation
+    document.addEventListener('DOMContentLoaded', () => {
+      const cards = document.querySelectorAll('.preview-flip-card');
+      
+      // Start auto-flip cycle with staggered timing
+      cards.forEach((card, index) => {
+        // Initial delay to stagger the start
+        setTimeout(() => {
+          startAutoFlip(card);
+        }, index * 800); // 800ms delay between each card starting
+      });
+
+      // Also flip on click
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          card.classList.toggle('flipped');
+        });
+      });
+    });
+
+    function startAutoFlip(card) {
+      setInterval(() => {
+        card.classList.toggle('flipped');
+      }, 2400); // Flip every 2.4 seconds
+    }
+
+    // Trial mode trigger
+    document.getElementById('startTrialBtn').addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Set trial mode in localStorage
+      localStorage.setItem('ml_trialMode', JSON.stringify(true));
+      localStorage.setItem('ml_hasFullAccess', JSON.stringify(false));
+      
+      // Redirect to beta language selection
+      window.location.href = 'beta/index.html';
+    });
+  </script>
+</body>
+</html>
